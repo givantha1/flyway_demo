@@ -1,0 +1,1 @@
+ALTER TABLE public.savinggroup ADD COLUMN new_col_2 varchar(20);

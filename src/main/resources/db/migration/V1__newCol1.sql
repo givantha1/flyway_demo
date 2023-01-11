@@ -1,0 +1,1 @@
+ALTER TABLE savinggroup ADD COLUMN new_col_1 varchar(20);

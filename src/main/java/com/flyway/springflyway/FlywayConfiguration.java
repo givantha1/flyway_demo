@@ -1,0 +1,18 @@
+package com.flyway.springflyway;
+
+import org.flywaydb.core.Flyway;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Configuration;
+
+import javax.sql.DataSource;
+//@Configuration
+public class FlywayConfiguration {
+
+    // To use flyway with jpa update
+   /* @Autowired
+    public FlywayConfiguration(DataSource dataSource) {
+        Flyway.configure().baselineOnMigrate(true)
+                //.locations("db/migration")
+                .dataSource(dataSource).load().migrate();
+    }*/
+}

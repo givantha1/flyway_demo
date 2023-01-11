@@ -1,0 +1,1 @@
+UPDATE public.savinggroup set new_col_2='col 2', new_col_1='col 1';
